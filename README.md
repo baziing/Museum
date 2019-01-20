@@ -1,2 +1,2 @@
 # Museum
-创新项目
+文稿存放在 Museum/Document

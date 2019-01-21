@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".account.LoginActivity"
+    tools:context=".account.RegisterActivity"
     android:background="@color/green1">
 
     <!-- Login progress -->
@@ -52,9 +52,26 @@
 
             </android.support.design.widget.TextInputLayout>
 
-            <LinearLayout
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="15dp"/>
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:imeActionId="6"
+                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeOptions="actionUnspecified"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textCursorDrawable="@drawable/cursor_account"
+                    android:background="@drawable/underline_account"
+                    android:textColorHint="@color/yellow1"/>
+
+            </android.support.design.widget.TextInputLayout>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
@@ -78,9 +95,27 @@
 
             </android.support.design.widget.TextInputLayout>
 
-            <LinearLayout
+            <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="15dp"/>
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/password_confirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password(confirm)"
+                    android:imeActionId="6"
+                    android:imeActionLabel="@string/action_sign_in_short"
+                    android:imeOptions="actionUnspecified"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textCursorDrawable="@drawable/cursor_account"
+                    android:background="@drawable/underline_account"
+                    android:textColorHint="@color/yellow1"/>
+
+            </android.support.design.widget.TextInputLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -88,12 +123,12 @@
                 android:layout_gravity="center">
 
                 <Button
-                    android:id="@+id/register"
+                    android:id="@+id/back"
                     style="?android:textAppearanceSmall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="@string/action_register"
+                    android:text="@string/cancel"
                     android:textStyle="bold" />
 
                 <LinearLayout
@@ -106,10 +141,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
-                    android:text="@string/title_activity_login"
+                    android:text="@string/action_register"
                     android:textStyle="bold" />
 
             </LinearLayout>
+
+
 
         </LinearLayout>
     </ScrollView>

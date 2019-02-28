@@ -106,6 +106,14 @@ public class RegisterActivity extends AppCompatActivity implements LoaderCallbac
             }
         });
 
+        Button backButton=(Button)findViewById(R.id.back);
+        backButton.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                RegisterActivity.this.finish();
+            }
+        });
+
         mLoginFormView = findViewById(R.id.login_form);
         mProgressView = findViewById(R.id.login_progress);
 

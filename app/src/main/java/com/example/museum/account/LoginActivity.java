@@ -39,6 +39,7 @@ import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.LogInListener;
 
+import com.example.museum.ContributionActivity;
 import com.example.museum.ExhibitsActivity;
 import com.example.museum.R;
 
@@ -116,7 +117,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         testButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent(LoginActivity.this, ExhibitsActivity.class);
+                Intent intent=new Intent(LoginActivity.this, ContributionActivity.class);
                 startActivity(intent);
             }
         });

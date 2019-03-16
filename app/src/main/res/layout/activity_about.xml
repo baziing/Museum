@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity"
+    android:background="@color/green1"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/grey"
+        android:elevation="6dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="上海博物馆"
+                    android:textColor="@color/green1"
+                    android:textSize="18sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:lineSpacingExtra="5dp"
+                android:text="上海博物馆创建于1952年，1959年10月迁入河南南路16号旧中汇大楼；1993年8月，上海博物馆人民广场现馆舍开工，1996年10月12日全面建成开放。上海博物馆是一座大型的中国古代艺术博物馆，其收藏、研究、展览和教育以中国古代的艺术品为重点，馆藏文物近102万件，其中珍贵文物14万余件。
+\n上海博物馆的文物收藏包括青铜、陶瓷、书画、雕塑、甲骨、符印、货币、玉器、家具、织绣、漆器、竹木牙角、少数民族文物等31个门类，尤以青铜、陶瓷、书画最为突出。上海博物馆现有十个艺术陈列专馆、四个文物捐赠专室和三个特别展览厅，着力体现各艺术门类的完整发展历史，体系之完整、藏品之丰富、质量之精湛，在国内外享有盛誉。"
+                android:textColor="@color/yellow1" />
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="上海博物馆地址"
+                    android:textColor="@color/green1"
+                    android:textSize="18sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="中华人民共和国\n上海市黄浦区人民大道201号"
+                android:textColor="@color/yellow1"
+                android:gravity="center"
+                />
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="全年开放时间"
+                    android:textColor="@color/green1"
+                    android:textSize="18sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9:00—17:00\n16:00后停止入场\n免费开放\n每周一闭馆，除国定假日外\n每日限流8000人"
+                android:textColor="@color/yellow1"
+                android:gravity="center"
+                />
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="电子邮箱"
+                    android:textColor="@color/green1"
+                    android:textSize="18sp"
+                    android:typeface="normal"
+                    app:fontFamily="sans-serif" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="webmaster@shanghai-museum.org"
+                android:textColor="@color/yellow1"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

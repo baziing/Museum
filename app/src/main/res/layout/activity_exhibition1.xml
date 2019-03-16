@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExhibitionActivity"
+    android:background="@color/green1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/iv_header_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/xiandaizhuyi" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:alpha="0.5"
+                    android:background="@color/green1" />
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_img_source"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:layout_alignParentBottom="true"-->
+                    <!--android:layout_margin="4dp"-->
+                    <!--android:background="@color/yellow1"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="2018-09-28 ~ 2019-01-06   \n上海博物馆第二展厅"-->
+                    <!--android:textColor="@color/green1"-->
+                    <!--android:textSize="14sp" />-->
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:alpha="0.5"
+                    android:background="@color/white"
+                    android:gravity="center" />
+
+
+                <TextView
+                    android:id="@+id/tv_header_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:text="走向现代主义：美国艺术八十载1865-1945"
+                    android:textColor="@color/green1"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:id="@+id/tv_img_source"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="2018-09-28 ~ 2019-01-06   \n上海博物馆第二展厅"
+                    android:textColor="@color/green1"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:background="@color/green1"
+                android:columnCount="4"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_1" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_2" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_3" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_4" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_5" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_6" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_7" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_8" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_9" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_10" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_11" />
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/z1_12" />
+
+            </GridLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="简介"
+                    android:textColor="@color/green1"
+                    android:textSize="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:id="@+id/wb_story_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green1"
+                    android:lineSpacingExtra="5dp"
+                    android:text="      中国的观众可能已经对以波普艺术为代表的，夸张、大胆的美国艺术颇为熟悉。然而任何文化现象都非无本之木，美国艺术的发展也并非一蹴而就。“走向现代主义：美国艺术八十载（1865-1945）”囊括了创作于1865年到1945年间的80件绘画、版画，代表了美国在这段关键时期的艺术发展，旨在为观众介绍二战结束前美国艺术的来龙去脉。"
+                    android:textColor="@color/yellow1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="热点详解"
+                    android:textColor="@color/green1"
+                    android:textSize="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green1"
+                    android:lineSpacingExtra="5dp"
+                    android:text="      在这80年间，美国完成了从农业社会向工业化国家的转变。虽然19世纪60年代的南北战争和20世纪的两次世界大战给这个年轻的国家带来了不可磨灭的灾难，但也为其国土扩张、科技创新、艺术蓬勃发展创造了机遇。南北战争改变了美国的社会结构，也刺激了新技术和工业的迅速发展。工业生产的增长带来了财富积累，为艺术的发展提供了土壤。许多美国艺术家前往伦敦、巴黎等欧洲艺术之都学习，在多种文化潮流的影响下开创出全新的风格。同时，现代化都市中新的交通、交流和娱乐方式又为他们提供了前所未有的体验与绘画主题。美国艺术在20世纪前半叶已经呈现出多元化的面貌，到二战结束时，它已经准备好站在艺术世界的中心。"
+                    android:textColor="@color/yellow1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="背景介绍"
+                    android:textColor="@color/green1"
+                    android:textSize="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green1"
+                    android:lineSpacingExtra="5dp"
+                    android:text="      这次展览中的所有展品来自美国芝加哥艺术博物馆和泰拉美国艺术基金会。前者是美国最早成立的博物馆之一，藏有诸如爱德华•霍普的《夜游者》等著名美国现代艺术经典。而泰拉基金会以其丰富、卓越的美国艺术藏品闻名遐迩，曾参与上海博物馆2007年举办的“美国艺术三百年：适应与革新”展览。历经三年的筹备，上海博物馆终于有幸在两个机构的支持下为各位观众带来本次展览。"
+                    android:textColor="@color/yellow1" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/grey"
+        android:elevation="6dp"/>
+</android.support.constraint.ConstraintLayout>

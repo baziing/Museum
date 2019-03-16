@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical"
+    android:background="@color/green1">
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:id="@+id/status_toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="45dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <RadioButton
+            android:id="@+id/wenwuButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:drawableTop="@drawable/wenwu"
+            android:gravity="center"
+            android:text="文物"
+            android:textColor="@color/yellow1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+
+        <RadioButton
+            android:id="@+id/zhanlanButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:drawableTop="@drawable/zhanlan"
+            android:gravity="center"
+            android:text="展览"
+            android:textColor="@color/yellow1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <RadioButton
+            android:id="@+id/wodeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:drawableTop="@drawable/wode"
+            android:gravity="center"
+            android:text="我的"
+            android:textColor="@color/yellow1"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp" />
+
+        <RadioButton
+            android:id="@+id/shezhiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:drawableTop="@drawable/shezhi"
+            android:gravity="center"
+            android:text="关于"
+            android:textColor="@color/yellow1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

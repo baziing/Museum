@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExhibitionActivity"
+    android:background="@color/green1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/iv_header_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/title3" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:alpha="0.5"
+                    android:background="@color/green1" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/tv_img_source"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_margin="4dp"-->
+                <!--android:background="@color/yellow1"-->
+                <!--android:gravity="center"-->
+                <!--android:text="2018-09-28 ~ 2019-01-06   \n上海博物馆第二展厅"-->
+                <!--android:textColor="@color/green1"-->
+                <!--android:textSize="14sp" />-->
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:alpha="0.5"
+                    android:background="@color/white"
+                    android:gravity="center" />
+
+
+                <TextView
+                    android:id="@+id/tv_header_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:gravity="center"
+                    android:text="丹青宝筏：董其昌书画艺术大展"
+                    android:textColor="@color/green1"
+                    android:textSize="20sp" />
+
+
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:id="@+id/tv_img_source"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="2018-12-07 ~ 2019-03-10\n中国历代绘画馆、中国历代书法"
+                    android:textColor="@color/green1"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/green1"
+                    android:columnCount="4"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_1"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_2"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_3"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_4"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_5"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_6"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_7"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_8"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_9"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_10"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_11"
+                        />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/z3_12"
+                        />
+                </GridLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="简介"
+                    android:textColor="@color/green1"
+                    android:textSize="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:id="@+id/wb_story_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green1"
+                    android:lineSpacingExtra="5dp"
+                    android:text="      晚明杰出的书画大家董其昌（1555－1636）集前人之大成，融会贯通，洞察画坛时弊，以禅喻画，及时明智地提出与倡导“南北宗论”，并在实践上充分加以印证，创中国文人画理论史上又一高峰，翻开了文人画创作的新篇章。其後诸如清初四高僧、四王吴恽、金陵画派、新安画派等，乃至晚清、近代三百馀年的画坛，大都在其理论辐射下而成就，形成了一个群体性的文人画创作高潮。元代以降，具备自出机杼、承上启下地位的唯赵孟頫与董其昌二人，故称“画史两文敏”。"
+                    android:textColor="@color/yellow1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="热点详解"
+                    android:textColor="@color/green1"
+                    android:textSize="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green1"
+                    android:lineSpacingExtra="5dp"
+                    android:text="      鉴於董其昌於画史之重大历史意义，以及董氏本为上海人，上海博物馆又是其传世书画的重要收藏与研究机构等因素，本次隆重举办的大陆首次“丹青宝筏：董其昌书画艺术大展”於上博而言，可谓含义丰富。展览名称，係借用本展王鑑评价吴伟业作品“丹青宝筏”之辞。“宝筏”，原佛教语，喻指世间一切事物由困惑到解决所使用的方法与手段，犹如藉继承董其昌画学思想的朱耷、王原祁等一大批优秀艺术家，皆属得以升堂入室、进入艺术自由王国之彼岸者，个中董氏指点迷津、金针度人之用，可谓无量，诚如其挚友陈继儒所评：“狮子一法乳，散为诸名家。”"
+                    android:textColor="@color/yellow1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/yellow1"
+                    android:gravity="center"
+                    android:text="背景介绍"
+                    android:textColor="@color/green1"
+                    android:textSize="30dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/green1"
+                    android:lineSpacingExtra="5dp"
+                    android:text="      此展以上博馆藏为主，同时向故宫博物院、美国大都会艺术博物馆、日本东京国立博物馆等海内外15家重要收藏机构商借藏品，遴选董其昌及相关作品共计154件（组）。展览由“董其昌和他的时代”“董其昌的艺术成就与超越”及“董其昌的艺术影响和作品辨伪”三个部分组成，旨在较好地呈现艺术性、经典性与学术性的统一。我们有理由相信，本展及由此举办的相关学术活动，对於系统梳理、重新理解董其昌及其时代的艺术成就与意义有进一步的推动，同时也是响应上海市打响“上海文化”品牌，大力挖掘与弘扬江南文化、海派文化号召的重要举措之一。"
+                    android:textColor="@color/yellow1" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/grey"
+        android:elevation="6dp"/>
+
+</android.support.constraint.ConstraintLayout>

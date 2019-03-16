@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.text.method.ScrollingMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,18 +13,22 @@ import android.widget.TextView;
 public class IntroductionFragment extends Fragment{
     private View view;
     private TextView textView;
-    private String string;
+    private TextView textView1;
+    private String title;
+    private String text;
 
     public IntroductionFragment(){}
 
     public static IntroductionFragment fragment;
 
-    public static IntroductionFragment newInstance(String text){
+    public static IntroductionFragment newInstance(String title,String text){
         Bundle args = new Bundle();
         args.putString("text",text);
+        args.putString("title",title);
         IntroductionFragment fragment = new IntroductionFragment();
         fragment.setArguments(args);
-        fragment.string=text;
+        fragment.title=title;
+        fragment.text=text;
         return fragment;
     }
 
@@ -37,6 +42,10 @@ public class IntroductionFragment extends Fragment{
 
     private void initView(View v){
         textView=(TextView)v.findViewById(R.id.text);
-        textView.setText(string);
+        textView.setText(text);
+        textView1=(TextView)v.findViewById(R.id.title);
+        textView1.setText(title);
+        textView.setMovementMethod(ScrollingMovementMethod.getInstance());
+        textView1.setMovementMethod(ScrollingMovementMethod.getInstance());
     }
 }

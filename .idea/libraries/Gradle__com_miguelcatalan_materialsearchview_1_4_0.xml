@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: com.miguelcatalan:materialsearchview-1.4.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.4.0.aar/39aa911bb49bf70c4c257845da4a7f91/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.4.0.aar/39aa911bb49bf70c4c257845da4a7f91/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.4.0.aar/032cb4a806a58c814e20fe4b31952f99/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/materialsearchview-1.4.0.aar/032cb4a806a58c814e20fe4b31952f99/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

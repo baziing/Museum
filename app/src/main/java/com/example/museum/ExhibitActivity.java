@@ -40,6 +40,7 @@ public class ExhibitActivity extends AppCompatActivity{
     private MediaPlayer mediaplayer;
     //声明一个变量判断是否为暂停，默认为false
     private boolean isPaused = false;
+    private boolean initFlag = false;
 
     private int id;
     private String title1;
@@ -124,12 +125,13 @@ public class ExhibitActivity extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 //判断
-                if (mediaplayer==null){
-                    Toast.makeText(ExhibitActivity.this,"dkofksf",Toast.LENGTH_LONG).show();
+                if (initFlag == false){
+
                    //放入歌曲
 //                    mediaplayer=MediaPlayer.create(ExhibitActivity.this,R.raw.bgm);
                     //设置进度条最大长度为音频时长
 //                    main_sb.setMax(mediaplayer.getDuration());
+                    initFlag = true;
                     //开始播放
                     mediaplayer.start();
                     //使按钮变为暂停图标
@@ -251,6 +253,11 @@ public class ExhibitActivity extends AppCompatActivity{
 //        imageViews = new ImageView[]{imageView1,imageView2,imageView3,imageView4};
     }
 
+    @Override
+    public void finish(){
+        mediaplayer.pause();
+        super.finish();
+    }
     private void getview(){
         Fragment fragment1=IntroductionFragment.newInstance("简要说明",introduce);
         Fragment fragment2=IntroductionFragment.newInstance("相关故事",story);

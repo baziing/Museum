@@ -27,7 +27,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".LoginActivity"
+            android:name=".View.LoginActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,19 +36,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name=".View.RegisterActivity"
             android:label="@string/title_activity_register" />
-        <activity android:name=".ExhibitionsActivity" />
-        <activity android:name=".ExhibitActivity" />
-        <activity android:name=".ContributionActivity" />
-        <activity android:name=".ProposalActivity" />
-        <activity android:name=".MenuActivity" />
-        <activity android:name=".ExhibitsActivity" />
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".ExhibitionActivity" />
-        <activity android:name=".MyActivity" />
-        <activity android:name=".AboutActivity" />
-        <activity android:name=".CollectionActivity"></activity>
+        <activity android:name=".View.ExhibitionsActivity" />
+        <activity android:name=".View.ExhibitActivity" />
+        <activity android:name=".View.ContributionActivity" />
+        <activity android:name=".View.ProposalActivity" />
+        <activity android:name=".View.MenuActivity" />
+        <activity android:name=".View.ExhibitsActivity" />
+        <activity android:name=".View.HomeActivity" />
+        <activity android:name=".View.ExhibitionActivity" />
+        <activity android:name=".View.MyActivity" />
+        <activity android:name=".View.AboutActivity" />
+        <activity android:name=".View.CollectionActivity"></activity>
     </application>
 
 </manifest>
